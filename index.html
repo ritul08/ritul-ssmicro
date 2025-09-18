@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Organizer</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <a href="#" class="logo">Event<span>Organizer</span></a>
+    <div class="menuToggle"></div>
+    <ul class="navigation">
+      <li><a href="#banner" onclick="toggleMenu();">Home</a></li>
+      <li><a href="#about" onclick="toggleMenu();">About</a></li>
+      <li><a href="#services" onclick="toggleMenu();">Services</a></li>
+      <li><a href="#gallery" onclick="toggleMenu();">Gallery</a></li>
+      <li><a href="#contact" onclick="toggleMenu();">Contact</a></li>
+    </ul>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner" id="banner">
+    <div class="content">
+      <h2>Make Every Event Memorable</h2>
+      <p>We specialize in organizing weddings, parties, and corporate events that leave lasting impressions.</p>
+      <a href="#contact" class="btn">Contact Us</a>
+    </div>
+  </section>
+
+  <!-- About -->
+  <section class="about" id="about">
+    <div class="row">
+      <div class="col50">
+        <h2 class="titleText"><span>A</span>bout Us</h2>
+        <p>
+          We are a team of passionate event organizers dedicated to making your occasions unforgettable.
+          From small gatherings to large-scale events, we provide tailored services that ensure success.
+        </p>
+      </div>
+      <div class="col50">
+        <div class="imgBx">
+          <img src="images/about.jpg" alt="About Us">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section class="services" id="services">
+    <div class="title">
+      <h2 class="titleText"><span>S</span>ervices</h2>
+      <p>We provide a wide range of event management services.</p>
+    </div>
+    <div class="content">
+      <div class="serviceBx">
+        <img src="images/icon1.jpg" alt="">
+        <h2>Wedding Planning</h2>
+      </div>
+      <div class="serviceBx">
+        <img src="images/icon2.png" alt="">
+        <h2>Corporate Events</h2>
+      </div>
+      <div class="serviceBx">
+        <img src="images/icon3.jpeg" alt="">
+        <h2>Birthday Parties</h2>
+      </div>
+      <div class="serviceBx">
+        <img src="images/icon4.png" alt="">
+        <h2>Concerts & Shows</h2>
+      </div>
+    </div>
+  </section>
+
+  <!-- Gallery -->
+  <section class="gallery" id="gallery">
+    <div class="title">
+      <h2 class="titleText"><span>G</span>allery</h2>
+      <p>Some of our best event memories captured.</p>
+    </div>
+    <div class="content">
+      <div class="imgBx"><img src="images/gallery1.jpg" alt=""></div>
+      <div class="imgBx"><img src="images/gallery2.jpg" alt=""></div>
+      <div class="imgBx"><img src="images/gallery3.jpg" alt=""></div>
+      <div class="imgBx"><img src="images/gallery4.jpg" alt=""></div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="contact" id="contact">
+    <div class="title">
+      <h2 class="titleText"><span>C</span>ontact Us</h2>
+      <p>Get in touch with us to plan your next unforgettable event.</p>
+    </div>
+    <div class="contactForm">
+      <h3>Send Message</h3>
+      <div class="inputBox">
+        <input type="text" placeholder="Name">
+      </div>
+      <div class="inputBox">
+        <input type="email" placeholder="Email">
+      </div>
+      <div class="inputBox">
+        <textarea placeholder="Message"></textarea>
+      </div>
+      <div class="inputBox">
+        <input type="submit" value="Send">
+      </div>
+    </div>
+  </section>
+<!-- Dark Mode Toggle Button -->
+  <button id="modeToggle">🌙 Dark Mode</button>
+
+
+  <!-- Footer -->
+  <div class="copyrightText">
+    <p>© 2025 Event Organizer. All Rights Reserved.</p>
+  </div>
+
+  <script src="/script.js"></script>
+</body>
+</html>
